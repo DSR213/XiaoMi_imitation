@@ -1,0 +1,82 @@
+.login_logo{
+	width: 1130px;
+	height: 98px;
+}
+.login_logo a{
+	width: 200px;
+	height: 98px;
+	float: left;
+}
+.login_logo a img{
+	width: 200px;
+	height: 98px;
+}
+.mititle{
+	font-size: 28px;
+}
+.mislogen{
+	font-size: 10px;
+}
+.login_banner{
+	width: 1130px;
+	height: 588px;
+}
+.layour{
+	width: 410px;
+	height: 535px;
+	background:#fff;
+	float: right;
+	margin-top: 26px;
+	padding:30px;
+}
+.logintitle{
+	color: #ff6700;
+	font-size: 26px;
+	text-align: center;
+}
+.inpt{
+	width: 100%;
+	height: 48px;
+	text-indent: 1em;
+	font-size: 14px;
+	margin-top: 20px;
+	float: left;
+}
+.loginbutton{
+	background:#ff6700;
+	width: 100%;
+	height: 50px;
+	color: #fff;
+	cursor: pointer;
+	margin-top: 25px;
+	display: block;
+	line-height: 50px;
+	border:0;
+	font-size: 14px;
+	float: left;
+}
+.login_phone{
+	color: #ff6700;
+	font-size: 14px;
+	margin-top: 5px;
+	text-align: center;
+	width: 135px;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 105px;
+	float: left;
+}
+.login_banner_bg{
+	width: 100%;
+	height: 588px;
+	position: absolute;
+	left: 0;
+	top: 98px;
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-image:url(../milogin/miloginimg.jpg);
+	z-index: 1;
+}
+footer{
+	margin-top: 588px;
+}

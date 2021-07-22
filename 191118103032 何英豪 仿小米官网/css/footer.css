@@ -1,0 +1,49 @@
+.footer{
+	width: 100%;
+	height: 150px;
+	background:rgba(220,220,220,0.3);
+	z-index: 99;
+}
+.footerbox{
+	width: 1226px;
+	height: 100%;
+	padding-top: 30px;
+}
+.logobox{
+	width: 90px;
+	height: 100%;
+	margin:0; 
+}
+.footerlogo{
+		background: url(../images/mi_logo.png);
+        background-size: cover;
+        width: 57px;
+        height: 57px;
+        float: left;
+}
+.f1box{
+	height: 12px;
+	margin-bottom: 5px;
+}
+
+.f1{
+	color: rgb(180,180,180);
+	font-size: 12px;
+	line-height: 12px;
+	margin: 0 3px;
+	float: left;
+}
+.f1_text a{
+	float: left;
+	font-size: 12px;
+	color: rgb(100,100,100);
+	line-height: 12px;
+}
+.f1_text a:hover{
+	color: #ff6700;
+}
+.footermsg p{
+	color: rgb(150,150,150);
+	font-size: 12px;
+	margin-top: 2px;
+}

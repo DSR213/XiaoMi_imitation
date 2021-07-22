@@ -1,0 +1,142 @@
+.name_title{
+	width: 100%;
+	height: 63px;
+	background:#fff;
+	border-top: 1px solid rgba(200,200,200,0.6);
+	box-shadow: 0 8px 15px -10px rgba(150,150,150,0.7); 
+}
+.ntbox{
+	width: 1226px;
+	height: 60px;
+	margin-top: 0;
+	line-height: 60px;
+}
+.name{
+	font-size: 18px;
+	color: rgb(80,80,80);
+}
+.ntbox .cl{
+	color: rgba(100,100,100);
+	font-size: 12px;
+	margin: 0 10px;
+}
+.ntbox .cl_text a{
+	color: rgb(100,100,100);
+	line-height: 60px;
+}
+.ntbox .cl_text a:hover{
+	color: #ff6700;
+}
+
+.ntbox .cr{
+	color: rgba(100,100,100,0.3);
+	margin:0 11px;
+	font-size: 13px;
+	line-height: 57px;
+}
+.ntbox .cr_text a{
+	color: rgb(100,100,100);
+	font-size: 14px;
+	line-height: 55px;
+	font-weight: 300;
+}
+.ntbox .cr_text a:hover{
+	color: #ff6700;
+}
+
+.mainbox{
+	width: 1226px;
+	height: 700px;
+	padding-top: 35px;
+}
+.main_left{
+	width: 606px;
+	height: 100%;
+}
+.mainimgbox{
+	width: 560px;
+	height: 560px;
+}
+.mainimgbox img{
+	width: 560px;
+	height: 560px;
+}
+.main_right{
+	width: 600px;
+	height: 100%;
+}
+
+.mainname{
+	width: 600px;
+	height: 36px;
+	line-height: 24px;
+	font-size: 24px;
+	font-weight: 300;
+	margin-bottom: -5px;
+}
+.mainname img{
+	width: 50px;
+	height: 24px;
+	margin-right: 5px;
+}
+.intro{
+	border-bottom: 1px solid rgba(200,200,200,0.6)
+}
+.intro p{
+	color: #ff6700;
+	margin: 15px 0;
+	font-style: "仿宋";
+}
+.intro span{
+	color: rgb(180,180,180);
+	font-style: "微软雅黑";
+}
+.intro p,span{
+	font-size: 14px;
+}
+.mainoptions{
+	width: 600px;
+	height: 150px;
+}
+.mainoptions_text{
+	font-size: 18px;
+	margin-top: 20px;
+	font-weight: 300;
+}
+.mainoptions_bt li{
+	margin-top: 10px;
+}
+.mainoptions_bt li a{
+	border:1px solid rgb(200,200,200);
+	width: 292px;
+	height: 42px;
+	color: rgb(120,120,120);
+	text-align: center;
+	font-size: 16px;
+	line-height: 42px;
+}
+.mainoptions_bt li a:hover{
+	border:1px solid #ff6700;
+	color: #ff6700;
+}
+.shop_bt a{
+	width: 292px;
+	height: 54px;
+	text-align: center;
+	line-height: 54px;
+	font-size: 16px;
+	background:#ff6700;
+	color: #fff;
+	position: relative;
+}
+.shop_mask{
+	width: 292px;
+	height: 54px;
+	background:rgba(50,50,50,0.1);
+	z-index: 99;
+	display: none;
+	position: absolute;
+}
+.shop_bt a:hover .shop_mask{
+	display: block;
+}

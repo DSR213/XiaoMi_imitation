@@ -1,0 +1,83 @@
+body{
+	background:rgba(230,230,230,0.4);
+}
+header{
+	border-top: 1px solid rgba(200,200,200,0.6);
+	box-shadow: 0 8px 15px -10px rgba(150,150,150,0.7); 
+}
+.headerimgbox{
+	width: 100%;
+	height: 620px;
+	min-width: 1226px;
+	position: absolute;
+	top: 140px;
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+	background-image: url(../miphone/k30s_img.jpg);
+}
+.mainshopbox{
+	width: 1226px;
+	height: 1556px;
+	margin-top: 620px;
+}
+.shoptitle{
+	width: 1226px;
+	height: 68px;
+	line-height: 69px;
+	font-size: 24px;
+	font-weight: 350;
+}
+.shopbox{
+	width: 606px;
+	height: 482px;
+	float: left;
+	position: relative;
+	top: 0;
+	margin-bottom: 14px;
+}
+.shopbox:hover{
+	position: relative;
+	top: -5px;
+	box-shadow: 0 10px 12px rgba(150,150,150,0.5);
+}
+.shopbox img{
+	width: 606px;
+	height: 358px;
+	border:0;
+}
+.introbox{
+	width: 606px;
+	height: 124px;
+	background:#fff;
+	padding: 0 60px;
+}
+.shopname{
+	font-size: 24px;
+	font-weight: 300;
+	position: relative;
+	top: 30px;
+	color: #111;
+}
+.shopintro{
+	font-size: 15px;
+	color: rgb(150,150,150);
+	font-weight: 300;
+	position: relative;
+	top: 20px;
+}
+.shopprice{
+	color: #ff6700;
+	font-size: 28px;
+	font-weight: 450;
+	float: right;
+	position: relative;
+	top: -25px;
+}
+.shopprice span{
+	font-size: 15px;
+	font-weight: 500;
+}
+.leftgap{
+	margin-left: 14px;
+}
